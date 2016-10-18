@@ -19,7 +19,7 @@ ADD . /root/buda-agent-airquality
 # mongoose and ws =/
 # but after modules compile are no longer required
 RUN \
-  apk-install g++ make python && \
+  apk add g++ make python --no-cache --update-cache && \
   # Install base modules
   npm install --no-optional && \
   # Install agent-specific modules

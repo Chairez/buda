@@ -20,7 +20,7 @@ ADD . /root/buda-front
 # mongoose and ws =/
 # but after modules compile are no longer required
 RUN \
-  apk-install g++ make python && \
+  apk add g++ make python --no-cache --update-cache && \
   npm install --no-optional && \
   apk del g++ make python
 
