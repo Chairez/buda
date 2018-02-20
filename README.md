@@ -1,5 +1,6 @@
 
-#BUDA
+# BUDA
+## Este repo no está en mantenimiento, consultar [https://github.com/mxabierto/api](https://github.com/mxabierto/api)
 
 [![Stories in Ready](https://badge.waffle.io/mxabierto/buda.png?label=ready&title=Ready)](https://waffle.io/mxabierto/buda)
 -----
